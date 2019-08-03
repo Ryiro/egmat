@@ -1,1 +1,361 @@
+ion-button {
+    text-transform: none;
+  }
 
+  #total-marks {
+    margin-top: -10px;
+  }
+
+  #everbal {
+    margin-top: 25px;
+  }
+  #equant {
+    margin-top: 25px;
+  }
+
+  // main progress bar
+
+  #myProgress4 {
+    width: 00%;
+    background-color: #fff;
+    border-radius: 15px;
+
+  }
+  #myProgress6 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+
+  }
+  #myProgress7 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+
+  }
+  #myProgress3 {
+    width: 00%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    margin-top: -15px;
+  }
+  #myProgress {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+  }
+  #myProgress5 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+  }
+  #myProgress2 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+  }
+   
+  #myBar4 {
+    width: 0%;
+    height: 15px;
+    background-color: (#fff);
+    text-align: right;
+    line-height: 15px;
+    color: #808080;
+    border-radius: 15px;
+  }
+  #myBar3 {
+    width: 0%;
+    height: 15px;
+    background-color: (#fff);
+    text-align: right;
+    line-height: 15px;
+    color: #808080;
+    border-radius: 15px;
+  }
+
+  
+  #myBar {
+    width: 0%;
+    height: 15px;
+    background-color: (#ffe28a);
+    text-align: right;
+    line-height: 15px;
+    color: white;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+
+  #myBar6 {
+    width: 100%;
+    height: 15px;
+    background-color: #f5f5f5;
+    text-align: right;
+    line-height: 15px;
+    color: #f5f5f5;
+    border-radius: 15px;;
+  }
+  #myBar7 {
+    width: 100%;
+    height: 15px;
+    background-color: #f5f5f5;
+    text-align: right;
+    line-height: 15px;
+    color: #000;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+  #myBar2 {
+    width: 0%;
+    height: 15px;
+    background-color: #0fa2eb;
+    text-align: right;
+    line-height: 15px;
+    color: white;
+    margin-top: -15px;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+
+  #myBar5 {
+    width: 0%;
+    height: 15px;
+    background-color: (#ffe28a);
+    text-align: right;
+    line-height: 15px;
+    color: #000;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+
+// quantitative progress bar
+
+  #myProgressq4 {
+    width: 00%;
+    background-color: #fff;
+    border-radius: 15px;
+
+  }
+  #myProgressq6 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+
+  }
+  #myProgressq7 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+
+  }
+  #myProgressq3 {
+    width: 00%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-bottom: 15px;
+  }
+  #myProgressq {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+  }
+  #myProgressq5 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+  }
+  #myProgressq2 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+  }
+   
+  #myBarq4 {
+    width: 0%;
+    height: 15px;
+    background-color: (#fff);
+    text-align: right;
+    line-height: 15px;
+    color: #808080;
+    border-radius: 15px;
+  }
+  #myBarq3 {
+    width: 0%;
+    height: 15px;
+    background-color: (#fff);
+    text-align: right;
+    line-height: 15px;
+    color: #808080;
+    border-radius: 15px;
+  }
+
+  
+  #myBarq {
+    width: 0%;
+    height: 15px;
+    background-color: (#ffe28a);
+    text-align: right;
+    line-height: 15px;
+    color: white;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+
+  #myBarq6 {
+    width: 100%;
+    height: 15px;
+    background-color: #f5f5f5;
+    text-align: right;
+    line-height: 15px;
+    color: #f5f5f5;
+    border-radius: 15px;;
+  }
+  #myBarq7 {
+    width: 100%;
+    height: 15px;
+    background-color: #f5f5f5;
+    text-align: right;
+    line-height: 15px;
+    color: #000;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+  #myBarq2 {
+    width: 0%;
+    height: 15px;
+    background-color: #0fa2eb;
+    text-align: right;
+    line-height: 15px;
+    color: white;
+    margin-top: -15px;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+
+  #myBarq5 {
+    width: 0%;
+    height: 15px;
+    background-color: (#ffe28a);
+    text-align: right;
+    line-height: 15px;
+    color: #000;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+
+//  verbal progress bar
+
+  
+  #myProgressv4 {
+    width: 00%;
+    background-color: #fff;
+    border-radius: 15px;
+
+  }
+  #myProgressv6 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+
+  }
+  #myProgressv7 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+
+  }
+  #myProgressv3 {
+    width: 00%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-bottom: 15px;
+  }
+  #myProgressv {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+  }
+  #myProgressv5 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+  }
+  #myProgressv2 {
+    width: 00%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+  }
+   
+  #myBarv4 {
+    width: 0%;
+    height: 15px;
+    background-color: (#fff);
+    text-align: right;
+    line-height: 15px;
+    color: #808080;
+    border-radius: 15px;
+  }
+  #myBarv3 {
+    width: 0%;
+    height: 15px;
+    background-color: (#fff);
+    text-align: right;
+    line-height: 15px;
+    color: #808080;
+    border-radius: 15px;
+  }
+
+  
+  #myBarv {
+    width: 0%;
+    height: 15px;
+    background-color: (#ffe28a);
+    text-align: right;
+    line-height: 15px;
+    color: white;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+
+  #myBarv6 {
+    width: 100%;
+    height: 15px;
+    background-color: #f5f5f5;
+    text-align: right;
+    line-height: 15px;
+    color: #f5f5f5;
+    border-radius: 15px;;
+  }
+  #myBarv7 {
+    width: 100%;
+    height: 15px;
+    background-color: #f5f5f5;
+    text-align: right;
+    line-height: 15px;
+    color: #000;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+  #myBarv2 {
+    width: 0%;
+    height: 15px;
+    background-color: #0fa2eb;
+    text-align: right;
+    line-height: 15px;
+    color: white;
+    margin-top: -15px;
+    border-radius: 15px;
+    margin-top: -15px;
+  }
+
+  #myBarv5 {
+    width: 0%;
+    height: 15px;
+    background-color: (#ffe28a);
+    text-align: right;
+    line-height: 15px;
+    color: #000;
+    border-radius: 15px;
+    margin-top: -15px;
+  }

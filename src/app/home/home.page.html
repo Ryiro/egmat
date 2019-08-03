@@ -1,14 +1,176 @@
-<ion-header>
+<!-- <ion-header>
   <ion-toolbar>
     <ion-title>
       Ionic Blank
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
+<ion-app >
+  <ion-header>
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </ion-header>
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  <div style="width:70%;margin:auto">
+  <ion-grid>
+    <ion-row>
+     <ion-col size-md = "6">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Quant</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+              <ion-row>
+              <ion-col>
+            <ion-item >
+            <ion-label position="floating">Current</ion-label>
+            <ion-input type= "number" [(ngModel)]="quantC" id = "quant-current" (keyup.enter)="someFunction()"></ion-input>
+          </ion-item>
+        </ion-col>
+          <ion-col>
+            <ion-item >
+              <ion-label position="floating">Target</ion-label>
+              <ion-input type= "number" [(ngModel)]="quantT" id = "quant-target" (keyup.enter)="someFunction()"></ion-input>
+            </ion-item>
+            </ion-col>
+            </ion-row>
+          </ion-card-content>
+        </ion-card>
+     </ion-col>
+     <ion-col size-md = "6">
+        <ion-card>
+            <ion-card-header>
+              <ion-card-title>Verbal</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+                <ion-row>
+                <ion-col>
+              <ion-item >
+              <ion-label position="floating">Current</ion-label>
+              <ion-input type= "number" [(ngModel)]="verbalC" id = "verbal-current" (keyup.enter)="someFunction()"></ion-input>
+            </ion-item>
+          </ion-col>
+            <ion-col>
+              <ion-item >
+                <ion-label position="floating">Target</ion-label>
+                <ion-input type= "number" [(ngModel)]="verbalT" id = "verbal-target" (keyup.enter)="someFunction()"></ion-input>
+              </ion-item>
+              </ion-col>
+              </ion-row>
+            </ion-card-content>
+          </ion-card>
+     </ion-col>
+    </ion-row>
+
+    <ion-row>
+        <ion-col width-50 style="text-align: center">
+        <ion-button shape ="round" name = "submit" (click)="someFunction()" >Submit and Refresh</ion-button>
+        </ion-col>
+    </ion-row>
+      <ion-row>
+        <ion-col size-md = "6">
+          <h3 id = "total-marks"></h3>
+        </ion-col>
+      </ion-row>
+    <ion-row>
+        <div id="myProgress3">
+            <div id = "myBar3"></div>
+          </div>
+          <div id = "myProgress6">
+              <div id = "myBar6"></div>
+            </div>
+          <div id = "myProgress5">
+              <div id = "myBar5"></div>
+            </div>
+        <div id="myProgress">
+            <div id = "myBar"></div>
+          </div>
+          <div id="myProgress7">
+              <div id = "myBar7"></div>
+            </div>
+          <div id = "myProgress2">
+              <div id = "myBar2"></div>
+            </div>
+   
+        <div id="myProgress4">
+            <div id = "myBar4"></div>
+          </div>        
+    </ion-row>
+    <br><br>
+    <ion-row>
+    <div id= "estimated"></div>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <div id = 'quantheader'></div>
+        <ion-row>
+          <div id="myProgressq3">
+              <div id = "myBarq3"></div>
+            </div>
+            <div id = "myProgressq6">
+                <div id = "myBarq6"></div>
+              </div>
+            <div id = "myProgressq5">
+                <div id = "myBarq5"></div>
+              </div>
+          <div id="myProgressq">
+              <div id = "myBarq"></div>
+            </div>
+            <div id="myProgressq7">
+                <div id = "myBarq7"></div>
+              </div>
+            <div id = "myProgressq2">
+                <div id = "myBarq2"></div>
+              </div>
+     
+          <div id="myProgressq4">
+              <div id = "myBarq4"></div>
+            </div>        
+      </ion-row> 
+      <div id= "equant">
+      </div>
+    </ion-col>
+    <ion-col>
+      <div id = 'verbalheader'></div>
+      <ion-row>
+        <div id="myProgressv3">
+            <div id = "myBarv3"></div>
+          </div>
+          <div id = "myProgressv6">
+              <div id = "myBarv6"></div>
+            </div>
+          <div id = "myProgressv5">
+              <div id = "myBarv5"></div>
+            </div>
+        <div id="myProgressv">
+            <div id = "myBarv"></div>
+          </div>
+          <div id="myProgressv7">
+              <div id = "myBarv7"></div>
+            </div>
+          <div id = "myProgressv2">
+              <div id = "myBarv2"></div>
+            </div>
+   
+        <div id="myProgressv4">
+            <div id = "myBarv4"></div>
+          </div>        
+    </ion-row> 
+        <div id= "everbal">
+          </div>
+    </ion-col>
+  </ion-row>
+  </ion-grid>
+ 
+</div>
+
+  
+
 </ion-content>
+</ion-app>
